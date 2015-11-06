@@ -9,48 +9,34 @@
 </head>
 <body>
   <div class="main-content" ng-controller='MainCtrl'>
-    <header class="main-header">
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img class='logo pull-left' src="img/fth.png">
-              Feel The Hacking
-            </a>
-          </div>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="//github.com/fth-ship/" target='_blank'>Github</a></li>
-          </ul>
+    <div class="header-holder">
+      <div class="header-inner-holder">
+        <div class="header">
+          <img class='logo align-center' src="img/fth.png">
+          <h1>Feel The Hacking</h1>
         </div>
-      </nav>
-    </header>
-
-    <section class="main-content container">
-      <article>
-        <header>
-          <h1>Screencasts</h1>
-          <hr>
-        </header>
-
-        <div class="list-group">
-          <a class="list-group-item" ng-href="{{item.target}}" target="_blank" ng-repeat="item in screencasts">
-            <h4>{{item.title}}</h4>
-            <hr>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="560" height="315" ng-src="{{item.src}}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="content-holder">
+      <div class="content-inner-holder">
+        <div class="content">
+          <div class="event">
+            <h2 class="title">Meteor + Anglar + Ionic utilizando (ES6)</h2>
+            <div class="event-content">
+              <p>
+                O nosso próximo evento vai acontecer neste próximo final de semana,
+                onde iremos construir uma aplicação
+              </p>
             </div>
-          </a>
+            <div class="event-footer">
+              <ul class="access">
+                <li><a href="https://www.facebook.com/events/1499964443636752/" target="_blank">Ir ao evento</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-
-        <footer>
-          <hr>
-          <p>
-            Veja também os trabalhos da <a href="https://www.behance.net/MayaraMiregha" target="_blank">Mayara</a>
-          </p>
-        </footer>
-      </article>
-    </section>
+      </div>
+    </div>
   </div>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>

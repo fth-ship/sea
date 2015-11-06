@@ -21,8 +21,13 @@ angular
   });
 
 $(function () {
+<<<<<<< HEAD
   var $body = angular.element('body');
 
   angular
     .bootstrap($body, ['sea']);
+=======
+  angular
+    .bootstrap(document.getElementsByTagName('body'), ['sea']);
+>>>>>>> 75ee5e8511168b4b2e4b54654c67984c37894728
 });
