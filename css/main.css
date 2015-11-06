@@ -1,10 +1,58 @@
-.logo {
-  width:45px;
-  height:45px;
-  margin-top:-13px;
-  margin-right:7px;
+body,
+html {
+  background: #26344A;
 }
 
 .main-content {
-  margin-top: 70px;
+  margin-top: 1em;
+}
+
+.header-holder {}
+.header-holder .header-inner-holder {}
+.header-holder .header-inner-holder .header {
+  text-align: center;
+  color: rgba(255,255,255,.9);
+}
+.header-holder .header-inner-holder .header h1 {
+  text-shadow: 0 2px 0 rgba(0,0,0,.7);
+}
+
+.logo {
+  width:15em;
+  height:15em;
+}
+
+.content-holder {}
+.content-holder .content-inner-holder {}
+.content-holder .content-inner-holder .content {
+  position: relative;
+  margin-top: 3em;
+}
+.content-holder .content-inner-holder .content .event {
+  width: 50em;
+  padding: .7em 1em 1em;
+  margin: 0 auto;
+  background: rgba(255,255,255,.8);
+  border: 1px solid rgba(255,255,255,.1);
+  box-shadow: 0 2px 3px rgba(0,0,0,.7);
+  border-radius: 3px;
+}
+.content-holder .content-inner-holder .content .event h2.title {
+  text-align: center;
+}
+.content-holder .content-inner-holder .content .event .event-content {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.content-holder .content-inner-holder .content .event .event-content p {
+  text-align: center;
+}
+.content-holder .content-inner-holder .content .event .event-footer ul.access {
+  width: 11em;
+  margin: 0 auto;
+}
+
+.content-holder .content-inner-holder .content .event .event-footer ul.access li {
+  list-style: none;
 }

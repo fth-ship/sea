@@ -21,8 +21,6 @@ angular
   });
 
 $(function () {
-  var $body = angular.element('body');
-
   angular
-    .bootstrap($body, ['sea']);
+    .bootstrap(document.getElementsByTagName('body'), ['sea']);
 });
