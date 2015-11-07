@@ -34,11 +34,12 @@ html {
   margin: 0 auto;
   background: rgba(255,255,255,.8);
   border: 1px solid rgba(255,255,255,.1);
-  box-shadow: 0 2px 3px rgba(0,0,0,.7);
+  box-shadow: 0 5px 10px rgba(0,0,0,.3);
   border-radius: 3px;
 }
 .content-holder .content-inner-holder .content .event h2.title {
   text-align: center;
+  color: rgba(0,0,0,.7);
 }
 .content-holder .content-inner-holder .content .event .event-content {
   margin-top: 2em;
@@ -47,13 +48,29 @@ html {
 }
 .content-holder .content-inner-holder .content .event .event-content p {
   text-align: center;
+  font-size: 1.3em;
+  color: rgba(0,0,0,.5);
 }
 .content-holder .content-inner-holder .content .event .event-footer ul.access {
-  width: 11em;
+  width: 17em;
   margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 .content-holder .content-inner-holder .content .event .event-footer ul.access li {
   list-style: none;
->>>>>>> 75ee5e8511168b4b2e4b54654c67984c37894728
+  font-size: 1.3em;
+}
+.content-holder .content-inner-holder .content .event .event-footer ul.access li a {
+  padding: 1em;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  color: rgba(0,0,0,.5);
+}
+
+.content-holder .content-inner-holder .content .event .event-footer ul.access li a:hover {
+  text-decoration: none;
+  border-color: rgba(255,255,255,.3);
+  color: rgb(28,181,132);
 }
