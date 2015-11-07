@@ -74,3 +74,12 @@ html {
   border-color: rgba(255,255,255,.3);
   color: rgb(28,181,132);
 }
+
+.comments-holder {
+  width: 700px;
+  margin: 0 auto;
+}
+.comments-holder .comments-inner-holder {
+  padding: 3em 0;
+}
+.comments-holder .comments-inner-holder .comments {}
