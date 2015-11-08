@@ -83,3 +83,10 @@ html {
   padding: 3em 0;
 }
 .comments-holder .comments-inner-holder .comments {}
+
+.centralize {
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}

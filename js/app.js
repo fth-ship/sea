@@ -12,9 +12,9 @@
     }])
     .value('events', [{
       title: 'Meteor + Angular + Ionic utilizando (ES2015)',
-      content: 'O nosso próximo evento vai acontecer neste próximo final de semana, onde iremos construir uma app (Jokenpo) para web e mobile.',
-      href: 'https://www.facebook.com/events/177009912642554/',
-      label: 'Quero participar!'
+      content: 'Este foi o resultado do que preparamos neste primeiro encontro!',
+      href: 'http://jankenpo.meteor.com',
+      label: 'Resultado!'
     }])
     .controller('MainCtrl', function ($scope, screencasts, events, $sce) {
       function _trustMapHandler(item) {
