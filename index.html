@@ -29,7 +29,7 @@
             </div>
             <div class="event-footer">
               <ul class="access">
-                <li><a href="{{event.href}}" target="_blank">{{event.label}}</a></li>
+                <li ng-repeat="ref in event.references"><a href="{{ref.href}}" target="_blank">{{ref.label}}</a></li>
               </ul>
             </div>
           </div>

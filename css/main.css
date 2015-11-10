@@ -51,16 +51,24 @@ html {
   font-size: 1.3em;
   color: rgba(0,0,0,.5);
 }
+.content-holder .content-inner-holder .content .event .event-footer {
+  position: relative;
+  display: block;
+  min-height: 4em;
+}
 .content-holder .content-inner-holder .content .event .event-footer ul.access {
-  width: 17em;
+  width: 34em;
   margin: 0 auto;
   margin-top: 3em;
   margin-bottom: 1em;
+  display: block;
 }
 
 .content-holder .content-inner-holder .content .event .event-footer ul.access li {
   list-style: none;
   font-size: 1.3em;
+  float: left;
+  margin-right: 1em;
 }
 .content-holder .content-inner-holder .content .event .event-footer ul.access li a {
   padding: 1em;
