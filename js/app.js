@@ -14,11 +14,14 @@
       title: 'Meteor + Angular + Ionic utilizando (ES6)',
       content: 'Este foi o resultado do que preparamos neste primeiro encontro!',
       references: [{
+        href: 'https://medium.com/@dzay/aprenda-a-escrever-um-app-para-mobile-421093f341da',
+        label: 'Matéria'
+      }, {
         href: 'https://drive.google.com/file/d/0B-Yd5zfwO7tHVWdyR3VqY3R0TVU/view?usp=sharing',
-        label: 'Download do resultado!'
+        label: 'Download'
       }, {
         href: 'https://github.com/fth-ship/jankenpo',
-        label: 'Código fonte'
+        label: 'Código'
       }]
     }])
     .controller('MainCtrl', function ($scope, events) {
