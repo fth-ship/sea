@@ -25,6 +25,10 @@
           <div class="event" ng-repeat="event in events">
             <h2 class="title">{{event.title}}</h2>
             <div class="event-content">
+              <p ng-bind-html="event.video">
+              </p>
+            </div>
+            <div class="event-content">
               <p>
                 {{event.content}}
               </p>
