@@ -12,6 +12,7 @@
     // }])
     .value('events', [{
       title: 'Meteor + Angular + Ionic utilizando (ES6)',
+      video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ywqsKJLvYL4" frameborder="0" allowfullscreen></iframe>',
       content: 'Este foi o resultado do que preparamos neste primeiro encontro!',
       references: [{
         href: 'https://medium.com/@dzay/aprenda-a-escrever-um-app-para-mobile-421093f341da',
@@ -24,13 +25,16 @@
         label: 'Código'
       }]
     }])
-    .controller('MainCtrl', function ($scope, events) {
+    .controller('MainCtrl', function ($scope, $sce, events) {
       // function _trustMapHandler(item) {
       //   item.src = $sce.trustAsResourceUrl(item.src);
       //   return item;
       // }
       // $scope.screencasts = screencasts.map(_trustMapHandler).reverse();
-      $scope.events = events;
+      $scope.events = events.map(function (event) {
+        event.video = $sce.trustAsHtml(event.video);
+        return event;
+      });
     })
     .run(function ($log) {
       $log.debug('Sea is running!');
