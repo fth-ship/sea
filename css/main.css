@@ -23,7 +23,9 @@ html {
 }
 
 .content-holder {}
-.content-holder .content-inner-holder {}
+.content-holder .content-inner-holder {
+  margin-bottom: 1em;
+}
 .content-holder .content-inner-holder .content {
   position: relative;
   margin-top: 3em;
